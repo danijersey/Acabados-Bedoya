@@ -10,6 +10,6 @@ import { BrPipe } from '../../br.pipe';
 })
 export class WhatWeDoComponent {
   title: string = 'Lo que hacemos';
- description: string = 'Nuestros fuertes son el pladur , pimtura, aislamientos acusticos, y todo lo relacionado con acabados, alicatados y\
+ description: string = 'Nuestros fuertes son el pladur , pintura, aislamientos acusticos, y todo lo relacionado con acabados, alicatados y\
   mucho mas';
 }

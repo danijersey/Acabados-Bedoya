@@ -22,7 +22,7 @@ export class HomeComponent {
       img: 'image-dos.jpg',
       width:'80%',
       height:'400px',
-      description: 'Velamos 100% por cimplir tus necesidades Responsabilidad',
+      description: 'Velamos 100% por cumplir tus necesidades Responsabilidad',
       descriptionDos:'Dedicacion y compromiso en Tiempos favorables'
     },
     {
