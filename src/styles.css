@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+button {
+    all: unset;
+    cursor: pointer;
+}
+a {
+    all: unset;
+    cursor: pointer;
+}
+:root {
+  --titulo-1: clamp(24px, 5vw, 36px); /* Tamaño de título principal */
+  --titulo-2: clamp(20px, 4vw, 28px); /* Tamaño de título secundario */
+  --titulo-3: clamp(18px, 3.5vw, 24px); /* Tamaño de título terciario */
+  --parrafo: clamp(16px, 3vw, 20px); /* Tamaño de párrafo estándar */
+  --parrafo-pequeño: clamp(14px, 2.5vw, 18px); /* Tamaño de párrafo pequeño */
+  --parrafo-muy-pequeño: clamp(12px, 2vw, 16px); /* Tamaño de párrafo muy pequeño */
+  --etiqueta: clamp(10px, 1.5vw, 14px); /* Tamaño de etiqueta */
+  --etiqueta-pequeña: clamp(9px, 1.2vw, 12px); /* Tamaño de etiqueta pequeña */
+  --texto-descriptivo: clamp(11px, 1.8vw, 15px); /* Tamaño de texto descriptivo */
+  --texto-descriptivo-pequeño: clamp(10px, 1.5vw, 14px); /* Tamaño de texto descriptivo pequeño */
+  --texto-copyright: clamp(9px, 1.2vw, 12px); /* Tamaño de texto de copyright */
+  --color-gray-primary: rgba(128, 128, 128, 0.114)
+}

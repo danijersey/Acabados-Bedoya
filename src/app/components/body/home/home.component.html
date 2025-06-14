@@ -1,0 +1,18 @@
+<div class="header-container">
+
+    <button > {{infoButton}} </button>
+    <button >Whatsapp</button>
+</div>
+
+
+@for (item of infoSection; track $index) {
+  <div class="img-description">
+    <img [src]="'assets/img/'+item.img" alt="no se pudo obtener la image"
+         [style.width]="item.width" [style.height]="item.height">
+    <p class="description-text">{{item.description}}</p>
+
+    @if (item.descriptionDos) {
+      <p class="description-text">{{item.descriptionDos}}</p>
+    }
+  </div>
+}

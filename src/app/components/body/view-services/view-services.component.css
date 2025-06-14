@@ -1,0 +1,16 @@
+
+h1{
+    font-size: var(--titulo-2);
+}
+p{
+    margin-top: 40px;
+    font-size: var(--titulo-2);
+}
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 20px;
+}

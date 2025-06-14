@@ -1,1 +1,13 @@
-<p>menu-superior works!</p>
+<div class="header-container">
+  <div class="header-content">
+    <div class="logo">
+      <a routerLink="/"><h1>AB</h1></a> 
+    </div>
+    <button class="hamburger-btn" (click)="menuAbierto = !menuAbierto">☰</button>
+    <nav class="nav-menu" [class.open]="menuAbierto">
+      @for (item of routerDirection; track $index) {
+        <a [routerLink]="item.url" (click)="menuAbierto = false">{{item.name}}</a>
+      }
+    </nav>
+  </div>
+</div>

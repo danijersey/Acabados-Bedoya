@@ -1,0 +1,12 @@
+
+.body{
+    width: 100%;
+    height: auto;
+      display: flex;
+    justify-content: center;
+}
+.body-width{
+    width: 1366px;
+    height: auto;
+  
+}
